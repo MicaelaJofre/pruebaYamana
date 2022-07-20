@@ -1101,8 +1101,7 @@ iframe {
   .burger__align{
   position: fixed;
   top: 0;
-  width: 139%;
-  padding: 8% 2% 1% 1%;
+  padding: 10% 2% 1% 1%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
