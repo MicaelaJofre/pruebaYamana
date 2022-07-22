@@ -1161,9 +1161,13 @@ iframe {
     width: 80px;
     height: 80px;
     margin-top: 1em;
-  }
-  .menu{
     z-index: 10;
+  }
+  .menu-list{
+    z-index: 10;
+  }
+  .burger__align {
+    padding: 6% 0% 1% 1%;
   }
   .fontyamana {
     margin-bottom: 3px;
