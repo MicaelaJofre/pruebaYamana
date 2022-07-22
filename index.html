@@ -17,7 +17,7 @@
 
 <body>
   <!-- MAIN UI ELEMENTS -->
-  <main class="ui-wrapper page-not-loaded">
+  <main class="ui-wrapper page-not-loaded" >
     <!-- LOADER -->
     <div class="loader flex flex--center">
       <img src="./resources/WEB_yamana—llama (1).png" alt="logo_Yamana" width="115px" height="115px">
@@ -205,8 +205,8 @@
     <header class="fixed-content-header">
       <div class="flex flex--center">
         <div>
-          <a href="index.html" >
-            <img id="menuImg" class="menuImg" src="./resources/WEB_yamana—llama-blanca.png" alt="icono_yamana"
+          <a href="#hero">
+            <img id="menuImg" class="menuImg" data-page="0" src="./resources/WEB_yamana—llama-blanca.png" alt="icono_yamana"
               class="home">
           </a>
         </div>
@@ -264,7 +264,7 @@
     </div>
     <!-- MAIN CONTENT -->
     <div class="content">
-      <div class="content-section" data-page="0">
+      <div class="content-section" data-page="0" id="hero">
         <div class="configuration__letters configuration__letters--hidden">
           <span class="configuration__letters-text"></span>
         </div>

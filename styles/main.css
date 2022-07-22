@@ -1041,14 +1041,14 @@ iframe {
   .popup__offer {
     flex-basis: 100%;
   }
-  
+  .menuImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 1em;
+  }
   
 }
-.menuImg {
-  width: 80px;
-  height: 80px;
-  margin-top: 1em;
-}
+
 .logo_yamana{
   position: fixed;
   top: 0;
@@ -1132,4 +1132,43 @@ iframe {
 
 .button_team{
   margin-left: 100px;
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+  .content-section__text {
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+  .content-services {
+    margin-bottom: 5px;
+  }
+  .content-services__service {
+    flex-basis: 0;
+  }
+  .fixed-content-footer {
+    bottom: -25px;
+  }
+  .menuImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 1em;
+  }
+  .menu{
+    z-index: 10;
+  }
+  .fontyamana {
+    margin-bottom: 3px;
+  }
+  .popup__offer {
+    flex-basis: 100%;
+  }
+  .popup__offer-title {
+    margin: 5px;
+  }
+  .text_center {
+    margin-top: 10px;
+  }
+  .popup__subtitle{
+    margin-bottom: 10px;
+  }
 }

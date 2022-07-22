@@ -23,6 +23,7 @@ export default class UI {
       { selector: '.fixed-content-header__contact', cb: this.onPagingClick.bind(this) },
       { selector: '.fixed-content-paging', cb: this.onPagingClick.bind(this) },
       { selector: '.menu-list', cb: this.onMenuPagingClick.bind(this) },
+      { selector: '.menuImg', cb: this.onPagingClick.bind(this) },
       { selector: '#button_video', cb: this.showPopup.bind(this, 'video', this.initVideo, this.destoryVideo) },
       { selector: '#button_offers', cb: this.showPopup.bind(this, 'offers') },
       { selector: '#button_team', cb: this.showPopup.bind(this, 'team', this.initSlider, this.destroySlider) }
@@ -152,10 +153,11 @@ export default class UI {
     this.toggleMenu()
     this.onPagingClick(e)
   }
+  
 
-  onPagingClick (e) {
+  onPagingClick(e) {
     const datasetPage = +e.target.dataset.page
-    if (datasetPage >= 0) {
+    if (datasetPage >= 0 ) {
       constructorCb().onPagingClick(datasetPage)
     }
   }
