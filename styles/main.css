@@ -1134,19 +1134,28 @@ iframe {
   margin-left: 100px;
 }
 @media (max-width: 1000px) and (orientation: landscape) {
+  .content-service__text {
+    font-size: 14px;
+    margin-top: 5px;
+  }
   .content-section__text {
     font-size: 16px;
     width: 80%;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 4px;
   }
   .content-services {
     margin-bottom: 5px;
   }
+  .content-service__image {
+    width: 26px;
+  }
   .content-services__service {
     flex-basis: 0;
+    padding: 5px;
   }
   .fixed-content-footer {
-    bottom: -25px;
+    bottom: -20px;
   }
   .menuImg {
     width: 80px;
