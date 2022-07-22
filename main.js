@@ -2,7 +2,7 @@
 const configuration = {
   SiteName: 'INNOVATE',
   Use2DTextOver3D: false, // Change to true if you want 2D over 3D
-  SiteNameSize: 0.9, // Between 0 and +
+  SiteNameSize: 0.7, // Between 0 and +
   NumberOfVerticalLines: 20,
   NumberOfDots: 5000,
   colors: {
