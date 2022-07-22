@@ -1154,6 +1154,12 @@ iframe {
     flex-basis: 0;
     padding: 5px;
   }
+  .content-portfolio__images {
+    margin-bottom: 20px;
+  }
+  .content-holder--right-align{
+    margin-top: -30px;
+  }
   .fixed-content-footer {
     bottom: -20px;
   }
@@ -1178,10 +1184,14 @@ iframe {
   .popup__offer-title {
     margin: 5px;
   }
+  .popup__subtitle {
+    margin-bottom: 10px;
+  }
   .text_center {
     margin-top: 10px;
   }
-  .popup__subtitle{
-    margin-bottom: 10px;
+  .text_center--contact {
+    margin-bottom: 0;
   }
+  
 }
